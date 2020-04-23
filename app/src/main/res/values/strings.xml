@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Grow App</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="search">"Search"</string>
+    <string name="chat">"Chat"</string>
+    <string name="share">"Share"</string>
+    <string name="plants">"Plants"</string>
+    <string name="tips">"Tips"</string>
+    <string name="gallery">"Gallery"</string>
+    <string name="about">"About"</string>
+    <string name="seed">"Seed"</string>
+    <string name="disease">"Disease"</string>
+    <string name="video">"Video"</string>
+    <string name="navigation_drawer_open">"Open Navigation Drawer"</string>
+    <string name="navigation_drawer_close">"Close Navigation Drawer"</string>
+    <string name="my_plant_text">"Your Grow Space is empty.Please add plants to your Grow Space."</string>
+    <string name="tutorial">"Tutorial</string>
+    <string name="location_prompt">Select</string>
+    <string-array name="location">
+        <item>Indoor</item>
+        <item>Outdoor</item>
+        <item>Terrace</item>
+    </string-array>
+    <string name="dutch">"Dutch Buckets uses a series of small media beds (in buckets) with a drip irrigation emitter delivering nutrients directly to the rootzone. The buckets are typically arranged in a straight line with one main drip irrigation and one drainage line for each row.
+
+Dutch buckets can be used in both hydroponics and aquaponics (although hydroponics is easier and more popular). The technique has been commonly adopted in areas with non-arable land or where conventional or sustainable field agriculture is not appropriate, and offers several benefits to gardeners and farmers."</string>
+
+    <string name="foam">"Foam plant containers are lightweight and easy to move if your plants need to cool off in afternoon shade. In chilly weather, foam plant containers provide extra insulation for the roots. Brand new Styrofoam containers are inexpensive.
+
+Growing plants in foam containers is easy, and the bigger the container, the more you can plant. A small container is ideal for plants like lettuce or radishes. A five-gallon container will work for patio tomatoes, but you’ll need a 10-gallon foam plant container for full-size tomatoes. Of course, you can also plant flowers or herbs."
+    </string>
+
+    <string name="ivf">"Vertical farming is the practice of growing crops in vertically stacked layers. It often incorporates controlled-environment agriculture, which aims to optimize plant growth, and soilless farming techniques such as hydroponics, aquaponics, and aeroponics.
+
+Vertical Farms are modular and can be adjusted to fit any building. Vertical Farms can also feed more people then regular farming can because they grow 75 times more food per square foot then a traditional farm. Vertical Farms also use no pesticides and no fungicides so the food is healthier and safer. Vertical Farms also reduce water consumption because indoor farms use 90 percent less water than outdoor farms, so having a wet or dry season doesn't matter. Indoor farming can also control plant fertilizing nutrients so the food that is grown is highly nutritious."
+
+    </string>
+
+    <string name="cucumber">"Cucumber, Cucumis sativus, is a warm season, vining, annual plant in the family Cucurbitaceae grown for its edible cucumber fruit. The cucumber plant is a sprawling vine with large leaves and curling tendrils. The plant may have 4 or 5 main stems from which the tendrils branch."
+    </string>
+
+    <string name="growlight">"Grow Light is an artificial light source, generally an electric light, designed to stimulate plant growth by emitting a light appropriate for photosynthesis. Grow lights are used in applications where there is either no naturally occurring light, or where supplemental light is required.
+
+For example, in the winter months when the available hours of daylight may be insufficient for the desired plant growth, lights are used to extend the time the plants receive light. If plants do not receive enough light, they will grow long and spindly."
+
+    </string>
+
+    <string name="ivfTitle">"Indoor Vertical Farm Module"</string>
+    <string name="info">"Info"</string>
+    <string name="attack">"</string>
+    <string name="fvt">"Favourite"</string>
+    <string name="archive">"Archived"</string>
+    <string name="growSpace">"Grow Space"</string>
+    <string name="growSpacePrompt">"Select One"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

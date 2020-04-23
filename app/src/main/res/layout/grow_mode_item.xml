@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewGrow"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="170dp"
+        android:layout_height="230dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardMaxElevation="1dp"
+        card_view:cardElevation="1dp"
+        android:padding="1dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardPreventCornerOverlap="false"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        card_view:cardBackgroundColor="@android:color/white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/imageViewTutorial"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageViewGrow"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:src="@drawable/growmode"
+            android:layout_marginLeft="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/textViewGrowName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewGrow"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Grow Mode"
+                android:layout_marginLeft="10dp"></TextView>
+
+            <TextView
+                android:id="@+id/textViewGrowNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textViewGrowName"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey_700"
+                android:textSize="14dp"
+                android:text="Per Sqm"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

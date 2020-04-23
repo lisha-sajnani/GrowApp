@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/buttonOrange"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <Button
+        android:id="@+id/buttonYellow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:background="#fff534"/>
+
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/holo_green_light"/>
+
+    <TextView
+        android:id="@+id/textViewSow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="100dp"
+        android:text="Sow Period" />
+
+    <TextView
+        android:id="@+id/textViewBloom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="100dp"
+        android:text="Bloom Period" />
+
+    <TextView
+        android:id="@+id/textViewHarvest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="100dp"
+        android:text="Harvest Period" />
+
+    <TextView
+        android:id="@+id/buttonOk"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"
+        android:text="OK"
+        android:textColor="#AEF359"
+        android:background="@android:color/white"/>
+
+</RelativeLayout>

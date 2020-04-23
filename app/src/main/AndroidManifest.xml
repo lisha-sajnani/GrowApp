@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.veggitech.growapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launchicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/launchicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.CircularLayoutMenu"></activity>
+        <activity android:name=".activity.LifeCycle" />
+        <activity android:name=".activity.GrowSpaceActivity" />
+        <activity android:name=".activity.CircleLayoutActivity" />
+        <activity android:name=".activity.Main3Activity" />
+        <activity android:name=".activity.GrowSpaceVideoActivity" />
+        <activity android:name=".activity.CalendarActivity" />
+        <activity android:name=".activity.SampleActivity" />
+        <activity android:name=".activity.PlantGrowthMonitorActivity" />
+        <activity
+            android:name=".activity.MonitorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IVFGrowSpaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IVFActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WaterTutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SeedingTutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PlantTutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GrowModeTutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FoamBucketActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DutchBucketActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SetUpGrowSpaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GrowModeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GrowSpaceTutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FavouritePlantActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JSONActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyPlantDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyGrowSpaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DrawerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TipDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BrinjalPlantDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PlantDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CucumberPlantDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PlantActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GalleryImageFullScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MaterialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

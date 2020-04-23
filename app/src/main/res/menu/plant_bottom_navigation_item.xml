@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_favourite"
+        android:title="@string/fvt"
+        android:icon="@drawable/ic_favorite_white_24dp" />
+    <item android:id="@+id/action_archived"
+        android:title="@string/archive"
+        android:icon="@drawable/ic_archive_white_24dp" />
+    <item android:id="@+id/action_share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share_white_24dp" />
+</menu>

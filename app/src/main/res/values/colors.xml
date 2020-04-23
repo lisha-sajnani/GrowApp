@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#075e54</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorControlHighlight">@color/fifty_percent_transparency_grey_400</color>
+    <color name="fifty_percent_transparency_grey_400">#80bdbdbd</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_700">#616161</color>
+    <color name="green">#234F1E</color>
+    <color name="white">#ffffff</color>
+    <color name="tabindicator">#b76e79</color>
+    <color name="black">#000000</color>
+    <color name="pale_green">#AEF359</color>
+    <color name="progress_green">#88d840</color>
+    <color name="red">#ff0033</color>
+    <color name="dark_red">#f51b00</color>
+    <color name="floating_green">#4ac959</color>
+    <color name="bottom_green">#ddfdc0</color>
+</resources>
+
+

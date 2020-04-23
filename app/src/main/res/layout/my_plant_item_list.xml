@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewMyPlant"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="7dp"
+        app:srcCompat="@drawable/basil" />
+
+    <TextView
+        android:id="@+id/textViewMyPlantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewMyPlantDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="7dp"
+        android:text="TextView" />
+
+    <ProgressBar
+        android:id="@+id/myPlantProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="205dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="45dp"
+        android:progressTint="@color/progress_green"/>
+
+</RelativeLayout>

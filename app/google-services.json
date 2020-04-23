@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "44848513579",
+    "firebase_url": "https://grow-app-763ed.firebaseio.com",
+    "project_id": "grow-app-763ed",
+    "storage_bucket": "grow-app-763ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44848513579:android:7d2e575517a9724e5ba06e",
+        "android_client_info": {
+          "package_name": "com.android.veggitech.growapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44848513579-0nbe50bg3heg8ggtsplteu2uucjt4j1j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.veggitech.growapp",
+            "certificate_hash": "2dceb8cef7f39e582aa140948e43916e80bd9aba"
+          }
+        },
+        {
+          "client_id": "44848513579-3s6laiknejfs3ubuffvlcdkd9irim8ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL4F3amyzhVj8z_XBLKsFdF7QLUGe2DO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44848513579-3s6laiknejfs3ubuffvlcdkd9irim8ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

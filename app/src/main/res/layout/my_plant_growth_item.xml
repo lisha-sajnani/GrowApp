@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewPlantGrowth"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardMaxElevation="5dp"
+        card_view:cardElevation="5dp"
+        android:padding="5dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardPreventCornerOverlap="false"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        card_view:cardBackgroundColor="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/relativeText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewTutorial"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewPlantGrowth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="Stage Name"
+            android:layout_marginLeft="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/textViewPlantGrowthDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewPlantGrowth"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/grey_700"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"></TextView>
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/relativeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/imageViewStage1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/carrot"
+                android:scaleType="centerCrop"/>
+            <ImageView
+                android:id="@+id/imageViewStage2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/carrot"
+                android:layout_marginLeft="15dp"
+                android:scaleType="centerCrop"/>
+            <ImageView
+                android:id="@+id/imageViewStage3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/carrot"
+                android:layout_marginLeft="15dp"
+                android:scaleType="centerCrop"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

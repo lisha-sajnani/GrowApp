@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MyPlantDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMyPlant"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/relative"
+        android:background="@drawable/layout_shape">
+
+        <ProgressBar
+            android:id="@+id/progressBarMyPlantDetail"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:progressTint="@color/progress_green"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/textViewStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="32dp"
+            android:text="Start Date" />
+
+        <TextView
+            android:id="@+id/textViewEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="220dp"
+            android:text="End Date" />
+
+        <ImageView
+            android:id="@+id/imageViewLineGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/line" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_my_plant"
+        android:layout_below="@+id/relativeLayoutMyPlant"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

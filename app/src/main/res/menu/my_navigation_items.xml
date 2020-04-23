@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_info"
+        android:title="@string/info"
+        android:icon="@drawable/ic_info_outline_white_24dp" />
+    <item android:id="@+id/action_seed"
+        android:title="@string/seed"
+        android:icon="@drawable/ic_filter_vintage_white_24dp" />
+    <item android:id="@+id/action_video"
+        android:title="@string/video"
+        android:icon="@drawable/ic_video_library_white_24dp" />
+    <item android:id="@+id/action_tips"
+        android:title="@string/tips"
+        android:icon="@drawable/ic_lightbulb_outline_white_24dp" />
+
+</menu>
